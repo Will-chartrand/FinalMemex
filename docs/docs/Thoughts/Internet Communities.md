@@ -1,5 +1,0 @@
-Tags: #society #tech
-
-As someone who is on the internet often myself, I have noticed that there are an incredible number of niche communities to be explored and interacted with on the web. Communities ranging from those who collect and share [pictures of chairs submerged underwater](https://www.reddit.com/r/chairsunderwater/) to those who make and consume art relating to [anthropomorphized animals, known as "furry" art](https://www.youtube.com/watch?v=dQw4w9WgXcQ). There's literally something for everyone. 
-
-These things would not exist if not for the advent of the modern internet. Firstly because the population may be to sparse to find these like-minded people in a close enough area to get together, but also because many of these communities are based around content of which would make a member prefer to stay anonymous. 

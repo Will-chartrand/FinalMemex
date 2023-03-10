@@ -1,1 +1,0 @@
-More recently, the term stream has been applied to the never ending parade of Twitter, news alerts, and Facebook feeds.
