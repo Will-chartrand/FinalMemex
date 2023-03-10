@@ -7,10 +7,8 @@ This concept is brought up throughout the transcript of the video-game [[@foddyG
 
 As a result of this "trash culture", our attention spans have gotten increasingly worse over time. Some examples of this are as follows:
 
-
-
 <video width="320" height="240" controls>  
-  <source src="https://v16-webapp-prime.tiktok.com/video/tos/maliva/tos-maliva-ve-0068c799-us/5749195b648642e4bd004fae965c90d1/" type="video/mp4">  
+  <source src="ylF_pS9Q.mp4" type="video/mp4">  
     <source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag.  
 </video>
