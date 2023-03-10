@@ -1,0 +1,5 @@
+Electromagnetic radiation refers to the energy that is propagated through space by oscillating electric and magnetic fields. This energy travels at the speed of light and is commonly referred to as light or electromagnetic waves.
+
+Electromagnetic radiation encompasses a wide range of wavelengths, frequencies, and energies, with each type of radiation exhibiting unique properties and behavior. The electromagnetic spectrum includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays.
+
+The most relevant form of electromagnetic radiation to this course is the radio wave. After the wired telegraph became popularized, people began developing other forms of telegraphy that involved [[What were the advances in radio technologies in this time period|wireless transfer of information]]

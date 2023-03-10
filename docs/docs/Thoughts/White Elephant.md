@@ -1,0 +1,3 @@
+"A **white elephant** is a possession that its owner cannot dispose of, and whose cost, particularly that of maintenance, is out of proportion to its usefulness. In modern usage, it is a metaphor used to describe an object, construction project, scheme, business venture, facility, etc. considered expensive but without equivalent utility or value relative to its capital (acquisition) and/or operational (maintenance) costs"
+
+The term exists because kings used to give people white elephants as gifts, and the recipient would have to accept it because it would be rude otherwise. The person would usually die as a result of having no extra money after feeding the elephant.
