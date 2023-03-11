@@ -16,11 +16,9 @@ Winston, Brian. ‘Media Technology and Society - A History: From the Telegraph 
 
 ### Summary & Key Take Aways
 
-*Here type up a 1-2 paragraph concise summary of the article. 
-
-*If there are any key image you want to refer, you can include them here, drop them into the media folder, and then use the ![[]] format (just the filename).
-
+    This article is about the history of telegraphy and the ideas that led to its conception. It explores the origins of the study of electricity and magnetism, including the work of William Gilbert () and experiments with the Leyden jar. It also describes the use of string telephones and optical-mechanical systems as early forms of long-distance communication. The article suggests that the semaphore system played a significant role in creating a new sort of mental landscape in France, allowing for enhanced communication during the Revolution. Overall, the article provides a comprehensive overview of the scientific and technological developments that led to the invention of the telegraph.
+ 
 --- 
 
 ### Links
-Put any links to separate notes you have teased out here.
+
