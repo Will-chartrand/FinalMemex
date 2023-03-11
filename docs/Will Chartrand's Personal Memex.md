@@ -64,25 +64,25 @@ Part two:
 
 ### People
 
-[[Samuel Morse]]
-[[Kelvin]]
+- [[Samuel Morse]]
+- [[Kelvin]]
 
 ### Technologies
 
-[[Facsimile]]
-[[xerography]]
-[[What were the advances in radio technologies in this time period]]
-[[Leasing]]
-[[Electromagnetic Radiation]]
-[[Leyden Jar]]
-[[Pith Balls]]
-[[Binary Encoding]]
+- [[Facsimile]]
+- [[xerography]]
+- [[What were the advances in radio technologies in this time period]]
+- [[Leasing]]
+- [[Electromagnetic Radiation]]
+- [[Leyden Jar]]
+- [[Pith Balls]]
+- [[Binary Encoding]]
 
 ### Society 
 
-[[techno-imperialism]]
-[[White Elephant]]
-[[Effects of Instantateous Communication]]
+- [[techno-imperialism]]
+- [[White Elephant]]
+- [[Effects of Instantateous Communication]]
 
 
 
