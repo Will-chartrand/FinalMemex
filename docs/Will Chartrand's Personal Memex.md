@@ -14,6 +14,13 @@ The main themes surround that of a few assigned readings - namely The Victorian 
 
 Everything that has been added for this second installment of the memex has been tagged with #PartTwo . 
 
+The summaries of the texts are included in the source files, which can be found in the Sources folder (or just click on the links included in this file)
+
+It's unfortunate that the pictures don't appear on the website, I felt that they added a lot to some of the notes
+
+As for linking other peoples' memexes, I do so in the notes:
+- [[Morse Code]]
+
 
 
 
@@ -21,24 +28,37 @@ Everything that has been added for this second installment of the memex has been
 
 
 ![[Pasted image 20230311175550.png]]
-## Sources
+## Sources (With annotations)
 
 -  [[@bushvannevarWeMayThink1945]]
+	- [[Public annotations from @bush132407932Pdf1945]]
 - [[@kaczynskiIndustrialSocietyIts1995]]
+	- [[Public annotations from @kaczynskiIndustrialSocietyIts1995]]
 - [[@wrongOversocializedConceptionMan1961]]
+	- [[Public annotations from @wrongOversocializedConceptionMan1961]]
 - [[@youngRelationshipDepressionInternet1998a]]
+	- [[Public annotations from @youngRelationshipDepressionInternet1998a]]
 - [[@mikecaulfieldGardenStreamTechnopastoral2015]]
+	- [[Public annotations from @mikecaulfieldGardenStreamTechnopastoral2015]]
 
-Part two:
+#### Part Two Sources:
 
 - [[@coopersmithFaxedRiseFall2016]]
+	- [[Public annotations from @coopersmithFaxedRiseFall2016]]
 - [[@macdougallPeopleNetworkPolitical2014]]
+	- [[Public annotations from @macdougallPeopleNetworkPolitical2014]]
 - [[@spikerDevelopmentRadio]]
+	- [[Public annotations from @spikerDevelopmentRadio]]
 - [[@standageVictorianInternetRemarkable1999]]
+	- [[Public annotations from @standageVictorianInternetRemarkable1999]]
 - [[@winstonMediaTechnologySociety]]
+	- [[Public annotations from @winstonMediaTechnologySociety]]
 - [[@foddyGettingItBennett2017]]
+	- This one is used in the exploration of the [[Effects of Instantateous Communication]]
 
-## Thoughts
+
+
+## Part One Thoughts
 
 ### 'Technology'
 
@@ -60,7 +80,7 @@ Part two:
 - [[The Garden]]
 - [[How does one become more active in the Stream]]
 
-# Part Two:
+# Part Two Thoughts:
 
 ### People
 
@@ -77,6 +97,7 @@ Part two:
 - [[Leyden Jar]]
 - [[Pith Balls]]
 - [[Binary Encoding]]
+- [[Morse Code]]
 
 ### Society 
 
