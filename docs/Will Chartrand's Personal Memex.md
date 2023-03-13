@@ -19,13 +19,16 @@ The summaries of the texts are included in the source files, which can be found 
 It's unfortunate that the pictures don't appear on the website, I felt that they added a lot to some of the notes
 
 As for linking other peoples' memexes, I do so in the notes:
+
 - [[Morse Code]]
+- [[techno-imperialism]]
 
 
 
 
 ---
 
+Picture of memex graph:
 
 ![[Pasted image 20230311175550.png]]
 ## Sources (With annotations)
