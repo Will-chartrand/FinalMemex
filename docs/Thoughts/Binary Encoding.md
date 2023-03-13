@@ -1,0 +1,3 @@
+Binary encoding is a form of storing or sending data as numbers in a base-two numerical system. This can be thought of as strings of one's and zeroes. 
+
+Every consumer electronic today works off of this type of encoding. Not only is it found within the device itself through its storage medium and how it communicates data across components, but it can also be found in how our devices communicate to eachother. All internet requests are sent in the form of packets, which are strings of on's and off's of a certain length. The base two number system is the basis for everything digital.
