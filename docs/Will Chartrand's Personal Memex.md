@@ -10,7 +10,8 @@ Welcome to my memex!
 
 For this third memex, I chose to focus more on ARPANET and the technologies that came of it, including the rise of search engines and the development of the first computer virus ([[Morris Worm]]). [[Archie]]
 
-The main themes surround that of a few assigned readings - namely [[Public annotations from @griffithsChapterTwoARPANET|Chapter Two: From ARPANET to World Wide Web]] and [[Public annotations from @franaWebThereWas|Before the Web There Was Gopher]] . In addition to the history of these technologies, I also wanted to explore the societal impacts that they had at the time of their invention as well as the resulting impacts that we experience today. For this, I . 
+The main themes surround that of a few assigned readings - namely [[Public annotations from @griffithsChapterTwoARPANET|Chapter Two: From ARPANET to World Wide Web]] and . In addition to the history of these technologies, I also wanted to explore the societal impacts that they had at the time of their invention as well as the resulting impacts that we experience today. For this, I . 
+
 [[Archie]]
 
 Everything that has been added for this third installment of the memex has been tagged with #PartThree . 
@@ -21,7 +22,6 @@ As for linking other peoples' memexes, I do so in the notes:
 
 - [[Morse Code]]
 - [[techno-imperialism]]
-[[Archie]]
 
 
 - For this memex I put all my thoughts into a "Part 3" folder, because it seems as though the tags don't really aid in navigation on the website version of this Obsidian Vault
