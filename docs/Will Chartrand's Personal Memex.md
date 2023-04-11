@@ -149,8 +149,8 @@ Picture of memex graph:
 ### Society 
 
 - [[Flame Wars]]
-- [[The Fall of ARPANET]]
 - [[Amateur Networking Communities]]
+- [[The Fall of ARPANET]]
 
 
 
