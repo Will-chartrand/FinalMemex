@@ -8,7 +8,7 @@ Welcome to my memex!
 
 #### What you can expect:
 
-For this third memex, I chose to focus more on ARPANET and the technologies that came of it, including the rise of search engines and the development of the first computer virus ([[Morris Worm]]).
+For this third memex, I chose to focus more on ARPANET and the technologies that came of it, including the rise of search engines and the development of the first computer virus ([[Morris Worm]]). [[Archie]]
 
 The main themes surround that of a few assigned readings - namely [[Public annotations from @griffithsChapterTwoARPANET|Chapter Two: From ARPANET to World Wide Web]] and [[Public annotations from @franaWebThereWas|Before the Web There Was Gopher]] . In addition to the history of these technologies, I also wanted to explore the societal impacts that they had at the time of their invention as well as the resulting impacts that we experience today. For this, I . 
 
