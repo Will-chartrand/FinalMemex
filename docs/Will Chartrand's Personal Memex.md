@@ -12,7 +12,7 @@ For this third memex, I chose to focus more on ARPANET and the technologies that
 
 The main themes surround that of a few assigned readings - namely [[Public annotations from @griffithsChapterTwoARPANET|Chapter Two: From ARPANET to World Wide Web]] and [[Public annotations from @franaWebThereWas|Before the Web There Was Gopher]] . In addition to the history of these technologies, I also wanted to explore the societal impacts that they had at the time of their invention as well as the resulting impacts that we experience today. For this, I . 
 
-Everything that has been added for this second installment of the memex has been tagged with #PartTwo . 
+Everything that has been added for this third installment of the memex has been tagged with #PartThree . 
 
 The summaries of the texts are included in the source files, which can be found in the Sources folder (or just click on the links included in this file)
 
@@ -91,7 +91,7 @@ Picture of memex graph:
 
 ### 'Psychology'
 
-- [[What is oversocialization]](https://sci-hub.ru/10.2307/2089854)
+- [[What is oversocialization]] (https://sci-hub.ru/10.2307/2089854)
 - [[Hedonic Treadmill]]
 - [[Objective Reality]]
 
