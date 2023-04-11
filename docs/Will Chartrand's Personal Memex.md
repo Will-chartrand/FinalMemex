@@ -144,12 +144,15 @@ Picture of memex graph:
 - [[Website Technologies]]
 - [[S-100 Microcomputer]]
 - [[Perl]]
-- [[The First True Computer Network]]
+
+([[The First True Computer Network]])
 
 ### Society 
 
 - [[Flame Wars]]
-- [[Amateur Networking Communities]]
+
+[[Amateur Networking Communities]]
+
 - [[The Fall of ARPANET]]
 
 
