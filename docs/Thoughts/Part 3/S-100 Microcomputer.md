@@ -1,0 +1,6 @@
+The S-100 computer is an early personal computer architecture that was popular in the 1970s and 1980s. It was based on a bus system that allowed users to connect different hardware components such as processors, memory, and input/output devices, to a common interface. The S-100 architecture was designed to be modular and expandable, which allowed users to add or remove hardware components as needed. This flexibility made it popular among hobbyists and early computer enthusiasts who wanted to build and customize their own personal computers.
+
+The S-100 architecture was first introduced by MITS (Micro Instrumentation and Telemetry Systems) in their Altair 8800 computer in 1975. The Altair 8800 was one of the first personal computers available to the public, and it helped to popularize the S-100 architecture. The S-100 architecture continued to be used in personal computers throughout the 1970s and 1980s, with many companies producing their own S-100 compatible hardware. Although the S-100 architecture is no longer used in modern computers, its modular design and expandability laid the groundwork for future personal computer architectures.
+
+---
+![[s100.jpg|700]]
