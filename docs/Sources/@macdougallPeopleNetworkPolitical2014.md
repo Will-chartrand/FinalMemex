@@ -17,11 +17,6 @@ MacDougall, Robert. _The People’s Network: The Political Economy of the Teleph
 
 ### Summary & Key Take Aways
 
-*Here type up a 1-2 paragraph concise summary of the article. 
 
 
 
---- 
-
-### Links
-Put any links to separate notes you have teased out here.

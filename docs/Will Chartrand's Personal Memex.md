@@ -66,16 +66,18 @@ Picture of memex graph:
 
 #### Part Three Sources:
 
-- [[@cerfProtocolPacketNetwork1974]]
+- [[docs/Sources/Part 3 Sources/@cerfProtocolPacketNetwork1974]]
 	- [[Public annotations from @cerfProtocolPacketNetwork1974]]
-- [[@franaWebThereWas]]
+- [[docs/Sources/Part 3 Sources/@franaWebThereWas]]
 	- [[Public annotations from @franaWebThereWas]]
-- [[@griffithsChapterTwoARPANET]]
+- [[docs/Sources/Part 3 Sources/@griffithsChapterTwoARPANET]]
 	- [[Public annotations from @griffithsChapterTwoARPANET]]
-- [[@driscollSlateComTechnology2022]]
+- [[docs/Sources/Part 3 Sources/@driscollSlateComTechnology2022]]
 	- [[Public annotations from @driscollSlateComTechnology2022]]
-- [[@denningARPANETTwentyYears1991]]
+- [[docs/Sources/Part 3 Sources/@denningARPANETTwentyYears1991]]
 	- [[Public annotations from @denningARPANETTwentyYears1991]]
+- [[docs/Sources/Part 3 Sources/@doubCOMMUNITYMEMORYPRECEDENTS]]
+	- [[Public annotations from @doubCOMMUNITYMEMORYPRECEDENTS]]
 
 ---
 
@@ -144,16 +146,14 @@ Picture of memex graph:
 - [[Website Technologies]]
 - [[S-100 Microcomputer]]
 - [[Perl]]
-
-([[The First True Computer Network]])
+- [[The First True Computer Network]]
 
 ### Society 
 
 - [[Flame Wars]]
-
-[[Amateur Networking Communities]]
-
+- [[Amateur Networking Communities]]
 - [[The Fall of ARPANET]]
+- [[Societal Effects of Computer Viruses]]
 
 
 

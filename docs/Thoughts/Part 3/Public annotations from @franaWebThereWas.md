@@ -5,7 +5,7 @@ tags: #PartThree
 ---
 
 > [!info]
-> - **Cite Key:** [[@franaWebThereWas]]
+> - **Cite Key:** [[1-inbox/@franaWebThereWas]]
 > - **Link:** [Frana - Before the Web There Was Gopher.pdf](file://C:\Users\willc\Zotero\storage\QK6Q2F5H\Frana%20-%20Before%20the%20Web%20There%20Was%20Gopher.pdf)
 
 ## Annotations

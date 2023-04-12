@@ -5,7 +5,7 @@ tags: #PartThree
 ---
 
 > [!info]
-> - **Cite Key:** [[@griffithsChapterTwoARPANET]]
+> - **Cite Key:** [[1-inbox/@griffithsChapterTwoARPANET]]
 > - **Link:** [Griffiths - Chapter Two From ARPANET to World Wide Web.pdf](file://C:\Users\willc\Zotero\storage\JSXXQRKH\Griffiths%20-%20Chapter%20Two%20From%20ARPANET%20to%20World%20Wide%20Web.pdf)
 
 ## Annotations

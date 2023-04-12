@@ -5,7 +5,7 @@ tags: #PartThree
 ---
 
 > [!info]
-> - **Cite Key:** [[@denningARPANETTwentyYears1991]]
+> - **Cite Key:** [[1-inbox/@denningARPANETTwentyYears1991]]
 > - **Link:** [Denning - 1991 - The ARPANET after twenty years.pdf](file://C:\Users\willc\Zotero\storage\JH9Q4R6J\Denning%20-%201991%20-%20The%20ARPANET%20after%20twenty%20years.pdf)
 
 ## Annotations

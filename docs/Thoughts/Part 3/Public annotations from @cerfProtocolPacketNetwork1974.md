@@ -4,7 +4,7 @@ alias: ["A Protocol for Packet Network Intercommunication"]
 ---
 
 > [!info]
-> - **Cite Key:** [[@cerfProtocolPacketNetwork1974]]
+> - **Cite Key:** [[1-inbox/@cerfProtocolPacketNetwork1974]]
 > - **Link:** [Cerf and Kahn - 1974 - A Protocol for Packet Network Intercommunication.pdf](file://C:\Users\willc\Zotero\storage\UJCT39S3\Cerf%20and%20Kahn%20-%201974%20-%20A%20Protocol%20for%20Packet%20Network%20Intercommunication.pdf)
 > - **Abstract:** A protocol that supports the sharing of resources that exist in different packet switching networks is presented. The protocol provides for variation in individual network packet sizes, transmission failures, sequencing, flow control, end-to-end error checking, and the creation and destruction of logical process-to-process connections. Some implementation issues are considered, and problems such as internetwork routing, accounting, and timeouts are exposed.
 

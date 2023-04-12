@@ -5,7 +5,7 @@ tags: #PartThree
 ---
 
 > [!info]
-> - **Cite Key:** [[@driscollSlateComTechnology2022]]
+> - **Cite Key:** [[1-inbox/@driscollSlateComTechnology2022]]
 > - **Link:** [slate_com_technology_2022_09_modem_world_bbs_internet_history_html.pdf](file://C:\Users\willc\Zotero\storage\Y9WS9SUS\slate_com_technology_2022_09_modem_world_bbs_internet_history_html.pdf)
 
 ## Annotations
