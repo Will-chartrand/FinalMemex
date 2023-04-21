@@ -1,0 +1,784 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../Cryptology/" rel="prev"/>
+<link href="../Silk/" rel="next"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.6" name="generator"/>
+<title>Electric History - obsidian-mkdocs template</title>
+<link href="../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Electric History
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Will%20Chartrand%27s%20Personal%20Memex/">
+        Will Chartrand's Personal Memex
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/LaTeX%20Math%20Support/">
+        LaTeX Math Support
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/Mermaid%20Diagrams/">
+        Mermaid diagrams
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/Text%20Formatting/">
+        Text Formatting
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Final Journey
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Final Journey
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Final%20Journey/0_Final%20Journey_1/">
+        0 Final Journey 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Final%20Journey/0_Final%20Journey_2/">
+        0 Final Journey 2
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Lecture
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Lecture
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5%20-%20Codes/">
+        5   Codes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Cryptology/">
+        Cryptology
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Electric History
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Silk/">
+        Silk
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Sources
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Sources
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40bushvannevarWeMayThink1945/">
+        @bushvannevarWeMayThink1945
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40cerfProtocolPacketNetwork1974/">
+        @cerfProtocolPacketNetwork1974
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40coopersmithFaxedRiseFall2016/">
+        @coopersmithFaxedRiseFall2016
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40denningARPANETTwentyYears1991/">
+        @denningARPANETTwentyYears1991
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40doubCOMMUNITYMEMORYPRECEDENTS/">
+        @doubCOMMUNITYMEMORYPRECEDENTS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40driscollSlateComTechnology2022/">
+        @driscollSlateComTechnology2022
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40foddyGettingItBennett2017/">
+        @foddyGettingItBennett2017
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40franaWebThereWas/">
+        @franaWebThereWas
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40griffithsChapterTwoARPANET/">
+        @griffithsChapterTwoARPANET
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40kaczynskiIndustrialSocietyIts1995/">
+        @kaczynskiIndustrialSocietyIts1995
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40macdougallPeopleNetworkPolitical2014/">
+        @macdougallPeopleNetworkPolitical2014
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40mikecaulfieldGardenStreamTechnopastoral2015/">
+        @mikecaulfieldGardenStreamTechnopastoral2015
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40spikerDevelopmentRadio/">
+        @spikerDevelopmentRadio
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40standageVictorianInternetRemarkable1999/">
+        @standageVictorianInternetRemarkable1999
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40winstonMediaTechnologySociety/">
+        @winstonMediaTechnologySociety
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40wrongOversocializedConceptionMan1961/">
+        @wrongOversocializedConceptionMan1961
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/%40youngRelationshipDepressionInternet1998a/">
+        @youngRelationshipDepressionInternet1998a
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Index/">
+        Index
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_19" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_19" id="__nav_5_19_label" tabindex="0">
+          Part 3 Sources
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_19_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_19">
+<span class="md-nav__icon md-icon"></span>
+          Part 3 Sources
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40cerfProtocolPacketNetwork1974/">
+        @cerfProtocolPacketNetwork1974
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40denningARPANETTwentyYears1991/">
+        @denningARPANETTwentyYears1991
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40doubCOMMUNITYMEMORYPRECEDENTS/">
+        @doubCOMMUNITYMEMORYPRECEDENTS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40driscollSlateComTechnology2022/">
+        @driscollSlateComTechnology2022
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40franaWebThereWas/">
+        @franaWebThereWas
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Sources/Part%203%20Sources/%40griffithsChapterTwoARPANET/">
+        @griffithsChapterTwoARPANET
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Thoughts
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Thoughts
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Binary%20Encoding/">
+        Binary Encoding
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Does%20technological%20advancement%20really%20lead%20to%20greater%20control%20of%20our%20environment/">
+        Does technological advancement really lead to greater control of our environment
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Effects%20of%20Instantateous%20Communication/">
+        Effects of Instantateous Communication
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Electromagnetic%20Radiation/">
+        Electromagnetic Radiation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Facsimile/">
+        Facsimile
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Federated%20Wiki/">
+        Federated Wiki
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Hedonic%20Treadmill/">
+        Hedonic Treadmill
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/How%20does%20one%20become%20more%20active%20in%20the%20Stream/">
+        How does one become more active in the Stream
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Imperialism/">
+        Imperialism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Index/">
+        Index
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Internet%20Communities/">
+        Internet Communities
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Kelvin/">
+        Kelvin
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Leyden%20Jar/">
+        Leyden Jar
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Morse%20Code/">
+        Morse Code
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Objective%20Reality/">
+        Objective Reality
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Pith%20Balls/">
+        Pith Balls
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40bush132407932Pdf1945/">
+        Public annotations from @bush132407932Pdf1945
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40coopersmithFaxedRiseFall2016/">
+        Public annotations from @coopersmithFaxedRiseFall2016
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40kaczynskiIndustrialSocietyIts1995/">
+        Public annotations from @kaczynskiIndustrialSocietyIts1995
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40macdougallPeopleNetworkPolitical2014/">
+        Public annotations from @macdougallPeopleNetworkPolitical2014
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40mikecaulfieldGardenStreamTechnopastoral2015/">
+        Public annotations from @mikecaulfieldGardenStreamTechnopastoral2015
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40spikerDevelopmentRadio/">
+        Public annotations from @spikerDevelopmentRadio
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40standageVictorianInternetRemarkable1999/">
+        Public annotations from @standageVictorianInternetRemarkable1999
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40winstonMediaTechnologySociety/">
+        Public annotations from @winstonMediaTechnologySociety
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40wrongOversocializedConceptionMan1961/">
+        Public annotations from @wrongOversocializedConceptionMan1961
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Public%20annotations%20from%20%40youngRelationshipDepressionInternet1998a/">
+        Public annotations from @youngRelationshipDepressionInternet1998a
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Samuel%20Morse/">
+        Samuel Morse
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/The%20Garden/">
+        The Garden
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/The%20Stream/">
+        The Stream
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Website%20Technologies/">
+        Website Technologies
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/What%20are%20the%20differences%20between%20a%20topology%20and%20a%20serialization/">
+        What are the differences between a topology and a serialization
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/What%20is%20oversocialization/">
+        What is oversocialization
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/What%20is%20the%20force%20that%20drives%20technology%20to%20advance/">
+        What is the force that drives technology to advance
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/What%20were%20the%20advances%20in%20radio%20technologies%20in%20this%20time%20period/">
+        What were the advances in radio technologies in this time period
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/White%20Elephant/">
+        White Elephant
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/techno-imperialism/">
+        Techno imperialism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/xerography/">
+        Xerography
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_38" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_38" id="__nav_6_38_label" tabindex="0">
+          Part 3
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_38_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_38">
+<span class="md-nav__icon md-icon"></span>
+          Part 3
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/ARPANET%20Main%20Figures/">
+        ARPANET Main Figures
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Amateur%20Networking%20Communities/">
+        Amateur Networking Communities
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Archie/">
+        Archie
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Flame%20Wars/">
+        Flame Wars
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Morris%20Worm/">
+        Morris Worm
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Perl/">
+        Perl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40cerfProtocolPacketNetwork1974/">
+        Public annotations from @cerfProtocolPacketNetwork1974
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40denningARPANETTwentyYears1991/">
+        Public annotations from @denningARPANETTwentyYears1991
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40doubCOMMUNITYMEMORYPRECEDENTS/">
+        Public annotations from @doubCOMMUNITYMEMORYPRECEDENTS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40driscollSlateComTechnology2022/">
+        Public annotations from @driscollSlateComTechnology2022
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40franaWebThereWas/">
+        Public annotations from @franaWebThereWas
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Public%20annotations%20from%20%40griffithsChapterTwoARPANET/">
+        Public annotations from @griffithsChapterTwoARPANET
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Robert%20Morris/">
+        Robert Morris
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/S-100%20Microcomputer/">
+        S 100 Microcomputer
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Societal%20Effects%20of%20Computer%20Viruses/">
+        Societal Effects of Computer Viruses
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/TCP-IP/">
+        TCP IP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/The%20Fall%20of%20ARPANET/">
+        The Fall of ARPANET
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/The%20First%20True%20Computer%20Network/">
+        The First True Computer Network
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Thoughts/Part%203/Website%20Technologies/">
+        Website Technologies
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Src
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          Src
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../src/2023-02-07/">
+        2023 02 07
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Electric History</h1>
+<p>We're talking about electricity</p>
+<p>Lots of animals make electricity
+- Electric catfish in the nile
+- A lot of animals use magnetism which is part of the same force.</p>
+<p>Luigi Galvani 1737-1798. The calipers - one part made of brass, the other part with iron; had been interested in what happened to the legs in the presence of lightenning, but the legs would twitch when the two prongs touched the nerve. Felt that this was indicative of an 'animal force'
+(Shown diagram of frog with electrode in leg)</p>
+<blockquote>
+<p>On the first application of the process to the face, the jaws of the deceased criminal began to quiver, and the adjoining muscles were horribly contorted, and one eye was actually opened.</p>
+<p>In the subsequent part of the process the right hand was raised and clenched, and the legs and thighs were set in motion. Mr Pass, the beadle of the Surgeons' Company, who was officially present during this experiment, was so alarmed that he died of fright soon after his return home. <a href="https://www.exclassics.com/newgate/ng464.htm">Newgate Calendar</a></p>
+</blockquote>
+<hr/>
+<p>Let's talk about what the Greeks were doing before this frog stuff:</p>
+<p>What is it:
+The precise use of the word 'electric' and 'electricity' varies over the centuries, but starts getting used more or less in our sense in 16th, 17th century. Many individual observations over the years to do with attraction versus repelling, and the seeming interaction with magnets; all of it very mysterious. William Gilbert in 16th century observed how static electricity could attract a needle/lodestone; he framed it in the language of the 'humours' of the body, and especially as 'exhalation' - there's always been a connection between electricity and life, even when we didn't actually know that there <strong>was</strong> a connection between electricity and life.</p>
+<p>Can we store it?
+1746, Pieter van Musschenbroek invents the Leyden jar - crazy set up. He was trying to capture static electricity - has a glass phial or jar of water, hanging from a gun barrel by a wire through the cork in the top, where the wire goes into the bottle; gun barrel is suspended by silk near glass balls that have been thoroughly rubbed up full of static electricity. The assistant touches the phial, gets a terrible amplified shock - we now call this a capacitor, a device for storing up electricity for release</p>
+<p>How fast does electricity flow?
+Jean Antoine Nollet, also in 1746 wants to know how fast this electric force can travel. Arranges for 200 monks to stand in a circle, each holding one end of a metal rod which combined gives the circle a 1 mile radius. Then he electrified one of the monks by getting him to touch a Leyden jar (recently invented), hoping to see how fast the effect traveled by the monk's reaction. He had to conclude travels vritually instantly! Does the same thing again with 180 royal guards for the edification of Louis XV. Science!</p>
+<p>Ben Franklin, roughly the same time, notices that an iron point can conduct electricity away from a charged iron sphere; does his famous kite experiment to demonstrate that static electricity and lightening are of the same kind of thing; develops lightening rods to protect buildings and ships</p>
+<p>The idea that the stuff travels instantly, and can be channeled in various ways is emerging. People start using fluid metaphors.</p>
+<p>There starts to develop the idea that something is moving, like a fluid.</p>
+<hr/>
+<p>Alessandro Volta, 1745-1827 becomes aware of Galvani's experiments, and disagrees vehemently with him - V notes that experiment was with different medals through a moist body (recently deceased) - argues that the electrical current was a function of the interplay of moisture and the two different metals, NOT some innate animal force. To prove this, experiments and finds if he arranges two different kinds of metals in a pile of wet/dry/wet etc he can induce electricity to flow - calls this the 'pile'. Which we now call a 'battery'. 1800</p>
+<p>Implication: we can now experiment with a constant current rather than static - which helps kick start systematic experiments and obersvation &amp; research into electricity.</p>
+<hr/>
+<p>While I haven't described them, many researchers also noting the way electricity influences/influence by magnetism.<br/>
+-Orsted works out some of the relationship of flowing electricity to magnetic fields, can deflect a nearby needle - people immediately start thinking 'hot damn we could make a telegraph out of this!'</p>
+<ul>
+<li>Faraday shows that a magnet can induce electricity in 1831; but over in the US, engineer Joseph Henry discovered this at roughly the same time (but Faraday published first and more fully)</li>
+<li>Henry goes all in on electromagnets, builds a commerical one that can lift 750 pounds, sells a version useful for separating iron ore.</li>
+</ul>
+<hr/>
+<p>Henry invents - or rather, is one of several people to invent independently - the <strong>relay</strong>, a device through which one electrical circuit could control another. His party trick was a 1.5 mile circuit of wire that could trip a little hammer to ring a bell; another similar was a way of causing an electromagnet to suddenly demagnetize, dropping its load</p>
+<hr/>
+<p>Telegraphs
+- You can't just string a wire up from A to B
+- You have to take into account how the electricity flows
+- Messages at a distance became feasible once this was solved</p>
+<ul>
+<li>important to note that with electricity you have to think about what Henry and others called 'quantity' and 'intensity' to make electricity travel for long distances; if you wired up a lot of batteries to a magnet, you could pump enough electricity to do work at a distance.</li>
+<li>for railways, you need to be able to coordinate who's on the same set of tracks so you don't collide</li>
+</ul>
+<hr/>
+<p>...and now all the pieces are in place.</p>
+<p>We can:</p>
+<ul>
+<li>store electricity</li>
+<li>induce electricity to travel</li>
+<li>induce changes in some device at point B by alternating the electricity at point A</li>
+<li>and because we know magnetic fields and electricity are connected, compass needles are really easy to move with magnetic fields generated by electricity</li>
+</ul>
+<hr/>
+<p>there is a <em>lot</em> out there on the history of electricity. Especially the 18th and 19th centuries, things get intense. But if you want to know the details about how everything actually <em>works</em>, you can find lots of material pretty fast.</p>
+<p>What I do want you to think about are the ways today's story could've intersected with monday's, with last week's, other sessions. Every story I tell necessarily leaves things out. This is why your note <strong>making</strong> matters, why you, if you consider yourself an educated person, <strong>must</strong> seek out more information, more pieces of the puzzle. Triangulate! Today's story could not have happened without the industrial revolution. Could not have happened without the professionalization of what it means to experiment, to communicate scientific, industrial, engineering knowledge. These people knew or knew of each other, followed their work... what other technologies/emergent social structures had to exist? If you're reading this, maybe take a look at <a href="https://www.theguardian.com/books/2002/sep/14/featuresreviews.guardianreview17">this</a>.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
