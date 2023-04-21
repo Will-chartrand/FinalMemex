@@ -2,37 +2,23 @@
 ## Map of Content
 
 
-Welcome to my memex!
+I guess this is the final submission huh. We had a good run. 
 
 ---
 
-#### What you can expect:
+### Final Journey
 
-For this third memex, I chose to focus more on ARPANET and the technologies that came of it, including the rise of search engines and the development of the first computer virus ([[Morris Worm]]).
+You can find both Final Journeys under the Final Journey folder /docs/"Final Journey", but I'll list them here anyway:
 
-The main themes surround that of a few assigned readings - namely on ARPANET ([[Public annotations from @griffithsChapterTwoARPANET]]) and early search/query technologies ([[Public annotations from @franaWebThereWas]]) . In addition to the history of these technologies, I also wanted to explore the societal impacts that they had at the time of their invention as well as the resulting impacts that we experience today. For this, I . 
-
-Everything that has been added for this third installment of the memex has been tagged with #PartThree . 
-
-The summaries of the texts are included in the source files, which can be found in the Sources folder (or just click on the links included in this file)
-
-As for linking other peoples' memexes, I do so in the notes:
-
-- [[The First True Computer Network]]
-- [[Societal Effects of Computer Viruses]]
-
-
-
-For this memex I put all my thoughts into a "Part 3" folder, because it seems as though the tags don't really aid in navigation on the website version of this Obsidian Vault. You can find this Part 3 folder under the "Thoughts" directory, as well as in the "Sources" directory where the source notes are kept. 
-
-
+- [[0_Final Journey_1]]
+- [[0_Final Journey_2]]
 
 
 ---
 
 Picture of memex graph:
 
-![[Pasted image 20230411114718.png]]
+![[Pasted image 20230421183430.png]]
 
 ## Sources (With annotations)
 

@@ -70,7 +70,7 @@ Tags: #PartTwo
 > [Page 39](zotero://open-pdf/library/items/TTPC46HL?page=39) [[2023-03-09#2:59 pm]]
 
 > [!quote|#a28ae5] Highlight
-> Their bane was to be the ‘person named Morse’.
+> Their bane was to be the ‘person named Morse’. ([[Samuel Morse]])
 >
 > [Page 40](zotero://open-pdf/library/items/TTPC46HL?page=40) [[2023-03-09#5:13 pm]]
 
